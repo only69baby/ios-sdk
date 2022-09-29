@@ -92,10 +92,6 @@ class SurveyView: UIViewController {
   }
   
   private func passDelegate() {
-      print("footer is nil? = \(footer == nil)")
-      print("\(footer == nil)")
-      print("\(footer.delegate == nil)")
-      print("\(presenter == nil)")
     footer.delegate = presenter
     header.delegate = presenter
   }
